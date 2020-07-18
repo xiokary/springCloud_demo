@@ -1,0 +1,14 @@
+server:
+  port: 10010
+spring:
+  application:
+    name: service-zuul
+zuul:
+  routes:
+    service-provider: /user/**   #路由名称，可以随便写习惯上是服务名称
+    service-consumer: /consumer/**
+  prefix: /api
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10086/eureka

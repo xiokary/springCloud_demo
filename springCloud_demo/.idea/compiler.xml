@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="yun-demo-provider" />
+        <module name="yun-demo-zuul" />
+        <module name="springCloud_demo" />
+        <module name="yun-demo-consumer" />
+        <module name="yun-demo-eureka" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springCloud_demo" target="12" />
+      <module name="yun-demo-consumer" target="12" />
+      <module name="yun-demo-eureka" target="12" />
+      <module name="yun-demo-provider" target="12" />
+      <module name="yun-demo-zuul" target="12" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springCloud_demo" options="-parameters" />
+      <module name="yun-demo-consumer" options="-parameters" />
+      <module name="yun-demo-eureka" options="-parameters" />
+      <module name="yun-demo-provider" options="-parameters" />
+      <module name="yun-demo-zuul" options="-parameters" />
+    </option>
+  </component>
+</project>

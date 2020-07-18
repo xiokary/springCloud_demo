@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springCloud_demo.iml" filepath="$PROJECT_DIR$/springCloud_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yun-demo-consumer/yun-demo-consumer.iml" filepath="$PROJECT_DIR$/yun-demo-consumer/yun-demo-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yun-demo-eureka/yun-demo-eureka.iml" filepath="$PROJECT_DIR$/yun-demo-eureka/yun-demo-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yun-demo-provider/yun-demo-provider.iml" filepath="$PROJECT_DIR$/yun-demo-provider/yun-demo-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yun-demo-zuul/yun-demo-zuul.iml" filepath="$PROJECT_DIR$/yun-demo-zuul/yun-demo-zuul.iml" />
+    </modules>
+  </component>
+</project>
